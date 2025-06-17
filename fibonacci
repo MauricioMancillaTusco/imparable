@@ -1,0 +1,9 @@
+# Sucesión de Fibonacci en Python
+
+n = 10  # Número de términos que quieres generar
+a, b = 0, 1
+
+print("Sucesión de Fibonacci:")
+for _ in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
